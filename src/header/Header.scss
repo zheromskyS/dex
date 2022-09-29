@@ -1,0 +1,11 @@
+$white-color: #FFFFFF;
+$dark-blue-color: #0177FB;
+$bg-light-gray-color: #3B3C4E;
+$bg-gray-color: #2C2D3A;
+$bg-dark-gray-color: #23242F;
+
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}

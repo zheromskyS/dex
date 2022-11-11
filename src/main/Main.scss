@@ -1,0 +1,28 @@
+@import "../styles/constants";
+
+.main {
+  background-color: $bg-black-color;
+  color: $white-color;
+
+  //height: calc(100vh - 59px);
+}
+
+.main-wrapper {
+  display: grid;
+
+  grid-template-columns: 2fr 1fr;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-group {
+  margin-left: 60px;
+  padding-right: 20px;
+}
+
+.right-group {
+  background-color: $bg-dark-gray-color;
+}

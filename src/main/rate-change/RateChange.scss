@@ -1,0 +1,13 @@
+@import "../../styles/constants";
+
+.change {
+  color: $white-color;
+
+  display: flex;
+
+  align-items: end;
+}
+
+.change-rate {
+  margin-right: 8px;
+}

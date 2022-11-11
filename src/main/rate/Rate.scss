@@ -1,0 +1,17 @@
+@import "../../styles/constants";
+
+.rate {
+  font-family: $number-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #ffffff;
+}
+
+.rate-number {
+  margin-bottom: 8px;
+  margin-top: 24px;
+}

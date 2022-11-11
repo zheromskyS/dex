@@ -1,13 +1,7 @@
-$white-color: #FFFFFF;
-$dark-blue-color: #0177FB;
-$bg-light-gray-color: #3B3C4E;
-$bg-gray-color: #2C2D3A;
-$bg-dark-gray-color: #23242F;
-
+@import "../../styles/constants";
 
 .navigation {
-  background-color: $bg-dark-gray-color;
-
+  background-color: $bg-black-color;
 }
 
 .navigation-wrapper {
@@ -23,7 +17,7 @@ $bg-dark-gray-color: #23242F;
 }
 
 .menu {
-  background-color: $bg-gray-color;
+  background-color: $bg-dark-gray-color;
 
   display: flex;
 
@@ -63,11 +57,18 @@ $bg-dark-gray-color: #23242F;
   justify-content: space-between;
 }
 
+.header-wrapper {
+  width: 390px;
+  margin: auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu-button-user {
-  background-color: $bg-gray-color;
+  background-color: $bg-dark-gray-color;
+
   border: none;
 
   width: 40px;
   height: 40px;
 }
-

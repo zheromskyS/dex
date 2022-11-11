@@ -1,9 +1,9 @@
 import React from "react";
 import "./Navigation.scss";
 
-import logo from "./navigation-assets/logo.svg";
-import user from "./navigation-assets/user.svg";
-import menu from "./navigation-assets/menu.svg";
+import logo from "../../assets/logo.svg";
+import user from "../../assets/user.svg";
+import menu from "../../assets/menu.svg";
 
 export const NavigationLeft = () => {
   return (
@@ -20,7 +20,7 @@ export const NavigationLeft = () => {
 
           <p className="navigation-item">Developer</p>
         </div>
-        </div>
+      </div>
     </>
   );
 };
@@ -29,16 +29,18 @@ export const NavigationRight = () => {
   return (
     <>
       <div className="menu">
-        <div className="wrapper">
-          <button className="menu-button-user">
-            <img className="user-profile" src={user} alt="user-profile" />
-          </button>
+        <div className="header-wrapper">
+          <div className="wrapper">
+            <button className="menu-button-user">
+              <img className="user-profile" src={user} alt="user-profile" />
+            </button>
 
-          <button className="connect-wallet">Connect to a wallet</button>
+            <button className="connect-wallet">Connect to a wallet</button>
 
-          <button className="menu-button">
-            <img className="menu-open" src={menu} alt="user-profile" />
-          </button>
+            <button className="menu-button">
+              <img className="menu-open" src={menu} alt="user-profile" />
+            </button>
+          </div>
         </div>
       </div>
     </>

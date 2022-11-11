@@ -5,11 +5,11 @@ import { NavigationLeft, NavigationRight } from "./navigation/Navigation";
 export const Header = () => {
   return (
     <>
-        <div className="header">
-            <NavigationLeft />
+      <div className="header">
+        <NavigationLeft />
 
-            <NavigationRight />
-        </div>
+        <NavigationRight />
+      </div>
     </>
   );
 };

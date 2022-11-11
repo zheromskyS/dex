@@ -1,0 +1,125 @@
+@import "../../styles/constants";
+
+.card-exchange-button {
+  border: none;
+  background-color: $bg-light-gray-color;
+
+  margin-left: 8px;
+
+  border-radius: 12px;
+
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-exchange {
+  width: 450px;
+  height: 600px;
+
+  border-radius: 24px;
+  background-color: $bg-gray-color;
+
+  margin-top: 65px;
+}
+
+.wrapper {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-exchange--button-container {
+  display: flex;
+
+  justify-content: end;
+}
+
+.card-exchange--button-wrapper {
+  margin: 24px;
+}
+
+.pay-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay-wrapper {
+  margin: 24px;
+}
+
+.pay {
+  color: $light-gray-color;
+}
+
+.max-pay {
+  color: $light-gray-color;
+  text-decoration: underline;
+}
+
+.receive-wrapper {
+  margin: 24px;
+}
+
+.receive-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.receive {
+  color: $light-gray-color;
+}
+
+.max-receive {
+  color: $light-gray-color;
+}
+
+.confirm-button {
+  background: $bg-light-gray-color;
+  color: $gray-color;
+
+  border: none;
+  border-radius: 16px;
+
+  width: 400px;
+  height: 60px;
+
+  margin: 24px;
+  padding: 16px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.select-currency {
+  margin: 0;
+
+  border: 1px solid #3b3c4e !important;
+  border-radius: 16px !important;
+}
+
+.select-currency {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-currency--output {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+}
+
+.select-currency--input {
+  border: none;
+  background-color: #2c2d3a;
+  color: white;
+  margin-right: 10px;
+}
+
+.select-cryptocurrency {
+  color: white !important;
+}

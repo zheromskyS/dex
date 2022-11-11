@@ -1,0 +1,16 @@
+@import "../../styles/constants";
+
+.button-time {
+  background-color: $bg-black-color !important;
+
+  box-shadow: none !important;
+
+  padding: 4px 16px !important;
+
+  border-radius: 12px !important;
+
+  font: $main-font !important;
+}
+
+.button-time__active {
+}

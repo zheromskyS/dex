@@ -1,0 +1,74 @@
+@import "../../styles/constants";
+
+.navigation {
+  background-color: $bg-black-color;
+}
+
+.navigation-wrapper {
+  display: flex;
+
+  margin-left: 60px;
+}
+
+.navigation-item {
+  color: $white-color;
+
+  margin: 20px 24px;
+}
+
+.menu {
+  background-color: $bg-dark-gray-color;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.menu-button {
+  background-color: $bg-light-gray-color;
+
+  border: none;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 12px;
+}
+
+.connect-wallet {
+  height: 40px;
+
+  background-color: $bg-light-gray-color;
+  border: none;
+
+  color: $white-color;
+
+  border-radius: 100px;
+
+  padding: 8px 24px;
+}
+
+.wrapper {
+  width: 390px;
+
+  margin: auto 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-wrapper {
+  width: 390px;
+  margin: auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-button-user {
+  background-color: $bg-dark-gray-color;
+
+  border: none;
+
+  width: 40px;
+  height: 40px;
+}

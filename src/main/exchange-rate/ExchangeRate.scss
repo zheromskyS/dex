@@ -1,0 +1,26 @@
+@import "../../styles/constants";
+
+.exchange-rate {
+  padding-top: 65px;
+
+  background-color: $bg-black-color;
+
+  display: flex;
+
+  color: #ffffff;
+}
+
+.exchange-rate--currency {
+  margin-left: 8px;
+}
+
+.reverse-currency {
+  margin-left: 8px;
+}
+
+.reverse-currency--button {
+  background-color: black;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
